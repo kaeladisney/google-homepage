@@ -105,4 +105,9 @@ input[type=button]:hover{
 .content{
 
 }
-/*
+*/
+
+.icons{
+    float: right;
+    background-image: url('//ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+}
