@@ -13,22 +13,37 @@
 
 <body>
     <header>
-        <ul>
-            <li><a href="">About</a></li>
-            <li><a href=""></a>Store</li>
-            <li><a href=""></a>Gmail</li>
-            <li><a href=""></a>Images</li>
-        </ul>
-    </header>
-  <img src="images/googlelogo.png" alt="google-logo">
-  <form>
-    <input type="text">
-  </form>
+        <div class="header-left">
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href=""></a>Store</li>
+            </ul>
+        </div>
 
-  <form>
-    <input type="button" value="Google Search">
-    <input type="button" value="I'm Feeling Lucky">
-  </form>
+        <div class="header-right">
+            <ul>
+                <li><a href=""></a>Gmail</li>
+                <li><a href=""></a>Images</li>
+            </ul>
+        </div>
+    </header>
+
+<div class="content">
+    <div class="logo">
+        <img src="images/googlelogo.png" alt="google-logo">
+    </div>
+    <form>
+        <input type="text">
+    </form>
+
+    <div class="center">
+        <form>
+            <input type="button" value="Google Search">
+            <input type="button" value="I'm Feeling Lucky">
+        </form>
+    </div>
+</div>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="js/script.js"></script>
